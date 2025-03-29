@@ -1,0 +1,30 @@
+{
+  "name": "sql-parser",
+  "version": "1.0.0",
+  "description": "this is a backend written for converting natural language query into a sql query",
+  "homepage": "https://github.com/SudarshnaThakur15/SQL-Parser#readme",
+  "bugs": {
+    "url": "https://github.com/SudarshnaThakur15/SQL-Parser/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SudarshnaThakur15/SQL-Parser.git"
+  },
+  "license": "ISC",
+  "author": "Sudarshna Thakur",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-router": "^0.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.9"
+  }
+}
